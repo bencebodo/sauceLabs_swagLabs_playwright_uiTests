@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Test results and artifacts
+test-results/
+src/test-results/
+playwright-report/
+src/playwright-report/
+blob-report/
+allure-results/
+src/allure-results/
+allure-report/
+src/allure-report/
+
+# Playwright specific
+.auth/
+.cache/
+
+# Environment variables (biztonság miatt kötelező!)
+.env
+
+# System files
+.DS_Store
+Thumbs.db
