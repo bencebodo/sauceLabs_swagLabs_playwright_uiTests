@@ -23,7 +23,7 @@ src/
   │   ├── fixtures/  # Custom Playwright Fixtures (Dependency Injection)
   │   └── *.spec.ts  # Actual test cases
   └── utils/         # Helper functions (e.g., numeric-utils for price parsing)
-
+```
 ## Technology Stack
 Framework: Playwright v1.58.2
 
@@ -51,17 +51,17 @@ Install dependencies:
 
 ```bash
 npm ci
-
+```
 Run tests (Headless mode):
 
 ```bash
 npx playwright test
-
+```
 Generate and open Allure Report:
 
 ```bash
 npx allure generate allure-results --clean -o allure-report
 npx allure open allure-report
-
+```
 Author: 
 Bence Bodo | Automation QA 
