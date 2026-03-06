@@ -1,0 +1,19 @@
+{
+  "name": "saucelabs_demo_pw_ts",
+  "version": "1.0.0",
+  "description": "Playwright E2E Automation Portfolio",
+  "scripts": {
+    "test": "playwright test",
+    "clean:allure": "rm -rf allure-results allure-report",
+    "pretest": "npm run clean:allure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "25.3.3",
+    "allure-playwright": "^3.6.0"
+  }
+}
