@@ -20,8 +20,11 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                echo 'Installing NPM packages...'
-                sh 'npm ci'
+                echo 'Installing NPM packages and Java for Allure...'
+                sh '''
+                    apt-get update && apt-get install -y default-jre
+                    npm ci
+                '''
             }
         }
 
